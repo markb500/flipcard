@@ -9,58 +9,62 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>
-    $(document).ready(function(){
-        $('.card').click(function(e){
-        e.preventDefault();
-        $(this).toggleClass('flipped');
-        })
-    })
+    // $(document).ready(function(){
+    //     $('.card').click(function(e){
+    //     e.preventDefault();
+    //     $(this).toggleClass('flipped');
+    //     })
+    // })
+    function flip() {
+        $(".card").toggleClass('flipped');
+    }
 </script>
 
 <style>
 .card {
-width: 300px;
-height: 300px;
-margin: 25px;
-perspective: 1000px;
-cursor: pointer;
-transition: transform 1s;
--webkit-transform-style: preserve-3d;
-transform-style: preserve-3d;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .card.flipped {
--webkit-transform: rotateY( 180deg );
-transform: rotateY( 180deg );
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    -webkit-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
+
 .card-front, .card-back {
-position: absolute;
-width: 100%;
-height: 100%;
-padding: 25px;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-display: -webkit-box;
-display: -webkit-flexbox;
-display: flex;
--webkit-box-align: center;
--webkit-flexbox-align: center;
-justify-content: center;
-align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: -webkit-box;
+    display: -webkit-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-flexbox-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-back {
--webkit-transform: rotateY(180deg);
-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 </style>
 </head>
 <body>
-    <div class="card">
+    <div class="card" onclick="flip()">
         <div class="card-front">
             The front
         </div>
