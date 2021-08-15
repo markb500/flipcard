@@ -9,12 +9,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>
-    // $(document).ready(function(){
-    //     $('.card').click(function(e){
-    //     e.preventDefault();
-    //     $(this).toggleClass('flipped');
-    //     })
-    // })
     function flip() {
         $(".card").toggleClass('flipped');
     }
@@ -25,10 +19,10 @@
     width: 300px;
     height: 300px;
     margin: 25px;
-    border-radius: 20px;
+    border-radius: 25px;
     perspective: 1000px;
     cursor: pointer;
-    transition: transform 1s;
+    transition: transform 2s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -46,7 +40,7 @@
     padding: 25px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 6px 6px 3px 2px rgba(98, 98, 102, 0.4);
     background-color: lightgoldenrodyellow;
     display: -webkit-box;
@@ -60,8 +54,8 @@
 }
 
 .card-back {
-    -webkit-transform: rotateY(180deg);
     background-color: lightseagreen;
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
