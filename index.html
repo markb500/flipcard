@@ -25,18 +25,17 @@
     width: 300px;
     height: 300px;
     margin: 25px;
+    border-radius: 20px;
     perspective: 1000px;
     cursor: pointer;
     transition: transform 1s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 
@@ -47,6 +46,9 @@
     padding: 25px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 6px 6px 3px 2px rgba(98, 98, 102, 0.4);
+    background-color: lightgoldenrodyellow;
     display: -webkit-box;
     display: -webkit-flexbox;
     display: flex;
@@ -54,10 +56,12 @@
     -webkit-flexbox-align: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .card-back {
     -webkit-transform: rotateY(180deg);
+    background-color: lightseagreen;
     transform: rotateY(180deg);
 }
 
@@ -66,10 +70,11 @@
 <body>
     <div class="card" onclick="flip()">
         <div class="card-front">
-            The front
+            <b>Newton's First Law</b>
         </div>
         <div class="card-back">
-            The back
+            <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
+            will continue in this state unless acted upon by a force.
         </div>
     </div>
 </body>
