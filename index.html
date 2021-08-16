@@ -9,9 +9,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>
-    function flip() {
-        $(".card").toggleClass('flipped');
-    }
+    $(document).ready(function(){
+        $('.card').click(function(e){
+            e.preventDefault();
+            $(this).toggleClass('flipped');
+        })
+    })
 </script>
 
 <style>
@@ -76,14 +79,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card" onclick="flip()">
-            <div class="card-front">
-                <b>Newton's First Law</b>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <div class="card">
+                    <div class="card-front">
+                        <b>Newton's First Law</b>
+                    </div>
+                    <div class="card-back">
+                        <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
+                        will continue in this state unless acted upon by a force.
+                    </div>
+                </div>
             </div>
-            <div class="card-back">
-                <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
-                will continue in this state unless acted upon by a force.
+        </div>
+        <div class="column">
+            <div class="container">
+                <div class="card">
+                    <div class="card-front">
+                        <b>Newton's Second Law</b>
+                    </div>
+                    <div class="card-back">
+                        <b>Newton's Second Law.</b><br>Thew rate of change of the momentum of an object is proportional
+                        to the size of the applied force and takes place in the direction of the force.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container">
+                <div class="card">
+                    <div class="card-front">
+                        <b>Newton's Third Law</b>
+                    </div>
+                    <div class="card-back">
+                        <b>Newton's Third Law.</b><br>For every action there is an equal and opposite reaction.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
