@@ -15,6 +15,15 @@
 </script>
 
 <style>
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    background-color: transparent; 
+    border-radius: 25px;
+    transition: transform 0.5s;
+}
+
 .card {
     width: 300px;
     height: 300px;
@@ -28,11 +37,15 @@
     transform-style: preserve-3d;
 }
 
+.container:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
 }
-
 
 .card-front, .card-back {
     position: absolute;
@@ -59,17 +72,19 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-
 </style>
 </head>
+
 <body>
-    <div class="card" onclick="flip()">
-        <div class="card-front">
-            <b>Newton's First Law</b>
-        </div>
-        <div class="card-back">
-            <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
-            will continue in this state unless acted upon by a force.
+    <div class="container">
+        <div class="card" onclick="flip()">
+            <div class="card-front">
+                <b>Newton's First Law</b>
+            </div>
+            <div class="card-back">
+                <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
+                will continue in this state unless acted upon by a force.
+            </div>
         </div>
     </div>
 </body>
