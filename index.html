@@ -18,7 +18,7 @@
 </script>
 
 <style>
-.container {
+.card-container {
     width: 300px;
     height: 300px;
     margin: 25px;
@@ -40,7 +40,7 @@
     transform-style: preserve-3d;
 }
 
-.container:hover {
+.card-container:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
@@ -79,45 +79,98 @@
 </head>
 
 <body>
+    <script>
+        var defsarr = [];
+        var seldefs = [];
+        var prevseldefs = [];
+        function fetchData() {
+            //Puts data from txt file into array by line
+            fetch('stuff/defs.txt')
+                .then(response => response.text())
+                .then(text => text.split(/\r\n|\n/))
+                .then(function (result) {
+                    for (var i = 0; i < result.length; i++) {
+                        defsarr.push(result[i])
+                    }
+                });
+        }
+        fetchData();
+    </script>
+    <div class="py-3 jumbotron text-center" style="margin-bottom:0; background-image:url(stuff/typhoon_line.png); 
+                    background-size:50%; background-repeat:no-repeat; background-position:right center">
+        <img id="cosbadge" width="98" height="135" class="float-left" src="stuff\Cosbadge.png" alt="cosbadge">
+        <h1><br>Science Definitions Revision Aid<br><br></h1>
+    </div>
+    <div class="container">
+        <div class="row mt-2">
+            <button
+            id="next" 
+            class="btn btn-outline-primary" 
+            onclick="gendefs()">Next
+            </button>
+        </div>
+        <div class="row">
+            <p>Write down your definition <b>before</b> clicking the card to check.<br>
+                Click 'Next' for a new set of definitions.</p>
+        </div>
+    </div>
     <div class="row">
         <div class="column">
-            <div class="container">
-                <div class="card">
-                    <div class="card-front">
-                        <b>Newton's First Law</b>
-                    </div>
-                    <div class="card-back">
-                        <b>Newton's First Law.</b><br>An object at rest, or in uniform motion in a straight line, 
-                        will continue in this state unless acted upon by a force.
-                    </div>
+            <div class="card-container">
+                <div id="c1" class="card">
+                    <div class="card-front" id="c1f"><span></span></div>
+                    <div class="card-back" id="c1b"><span></span></div>
                 </div>
             </div>
         </div>
         <div class="column">
-            <div class="container">
-                <div class="card">
-                    <div class="card-front">
-                        <b>Newton's Second Law</b>
-                    </div>
-                    <div class="card-back">
-                        <b>Newton's Second Law.</b><br>Thew rate of change of the momentum of an object is proportional
-                        to the size of the applied force and takes place in the direction of the force.
-                    </div>
+            <div class="card-container">
+                <div id="c2" class="card">
+                    <div class="card-front" id="c2f"><span></span></div>
+                    <div class="card-back"id="c2b"><span></span></div>
                 </div>
             </div>
         </div>
         <div class="column">
-            <div class="container">
-                <div class="card">
-                    <div class="card-front">
-                        <b>Newton's Third Law</b>
-                    </div>
-                    <div class="card-back">
-                        <b>Newton's Third Law.</b><br>For every action there is an equal and opposite reaction.
-                    </div>
+            <div class="card-container">
+                <div id="c3" class="card">
+                    <div class="card-front"id="c3f"><span></span></div>
+                    <div class="card-back"id="c3b"><span></span></div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="column">
+            <div class="card-container">
+                <div id="c4" class="card">
+                    <div class="card-front" id="c4f"><span></span></div>
+                    <div class="card-back" id="c4b"><span></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c5" class="card">
+                    <div class="card-front" id="c5f"><span></span></div>
+                    <div class="card-back"id="c5b"><span></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c6" class="card">
+                    <div class="card-front"id="c6f"><span></span></div>
+                    <div class="card-back"id="c6b"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <p>Designed to aid revision for the science element of the RAF Aerospace Eng Tech Course.</p>
+        <p>Designed and built by Mark Butler, APO, RAF Cosford</p>
+    </footer>
+    <script src="utils_flipcard_module.js"></script>
+    <script>gendefs();</script>
 </body>
 </html>

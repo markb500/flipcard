@@ -1,0 +1,166 @@
+Atom
+The smallest amount of any element
+Electron
+Negative charge - Orbit in shells (Max 2-8-18-32)
+Valence Shell
+Outermost shell of an atom
+Valence Electron
+Electron in valence shell
+Proton
+Positive charge - Part of the nucleus
+Atomic Number
+Number of protons
+Neutrons
+No charge - Part of the nucleus
+Nucleus
+Centre of an atom - Contains protons and neutrons
+Positive Ion
+Atom with less electrons than protons
+Negative Ion
+Atom with more electrons than protons
+Isotope
+Has more, or less, neutrons than a standard atom of that element
+Molecule
+2 or more atoms bonded together - Can be same or different elements
+Compound
+2 or more elements chemically bonded
+Mixture
+2 or more substances mixed together but not chemically bonded
+Covalent Bond
+Sharing of valence electrons – Strongest bond
+Ionic Bond
+Metal gives away an electron – Non-metal gains an electron – Electrostatic bond.
+Metallic Bond
+Many free electrons - Weakest of the 3 bonds
+Features of Metals
+Strength, Workability, Stiffness, Ductility, Good conductors
+Kinetic Theory of Matter
+Above absolute zero, all particles have kinetic energy (KE)
+Kinetic Molecular Motion
+Vibrational in solids - Linear in gases
+Brownian Motion
+Molecules within a fluid colliding with small particles (eg pollen, smoke) causing random, jerky motion. A good demonstration of the kinetic theory of matter
+Sublimation
+Solid to Gas or Vapour eg Dry Ice
+Deposition
+Gas or Vapour to Solid eg Haw Frost
+Latent Heating
+Change of state - no change of temperature
+Sensible Heating
+Change of temperature - no change of state
+Latent Heat of Fusion
+Heat energy (J) required to melt 1 kg of a substance
+Latent Heat of Vaporisation
+Heat energy (J) required to vaporise 1 kg of a substance
+Heat
+Form of energy (J) - Total KE of all the particles in a body
+Temperature
+Hotness or coldness of a body - Average KE of all the particles in a body Measured in Kelvin
+Scalar
+Quantity with magnitude only.
+Vector
+Quantity with magnitude, direction and point of application.
+Mass
+Amount of matter in a body – units are kg.
+Weight
+Force created when gravity acts on a mass.
+Force
+Push or a pull that changes a bodies state of rest or uniform motion in a straight line. Vector quantity - units are Newtons (N).
+Resultant
+Value of one force that has the same effect as several forces.
+Equilibrium
+A system where the vector sum of the forces is zero and the sum of the moments (clockwise and anti-clockwise) is zero.
+Equilibrant
+A force equal in magnitude but opposite in direction to the Resultant.
+Moment
+The turning effect of a force about a point - the product of the force and perpendicular distance from the point - units are Newton metre (Nm).
+Torque
+Turning effect of a force about an axis of rotation - the product of a force and perpendicular distance from the axis of rotation - units are Nm.
+Centre of gravity
+The imaginary point from which the weight of a body can be considered to act. If the body is a symmetrical solid then its C of G is at the geometric centre.
+Pressure
+Force per unit area - units are Newton per metre squared (N/m^2) or Pascal (Pa)
+Density
+Mass per unit volume - units are kg per metres cubed (kg/m^3).
+Relative Density
+Density of a substance with relation to pure water - No units.
+Absolute Pressure
+Pressure measured relative to a vacuum.
+Gauge Pressure
+Pressure measured relative to atmospheric pressure.
+Differential Pressure
+A difference of 2 pressures. Normally internal – external.
+Ambient Pressure
+Pressure surrounding a body.
+Barometer
+Device to measure atmospheric pressure.
+Manometer
+Device to measure low pressure gas in pipelines.
+Distance
+Change of position of a body independent of direction.
+Displacement
+Change of position of a body in a given direction – units: metre.
+Speed
+The change of distance with respect to time - units are metre per second (m/s)
+Velocity
+The change of displacement with respect to time - units are metre per second (m/s)
+Acceleration
+The change of velocity with respect to time - units are metre per second squared (m/s^2)
+Newton's First Law
+A body at rest, or in uniform motion in a straight line, will continue in this state unless acted upon by an external force.
+Newton's Second Law
+The rate of change of momentum of an object is proportional to the size of the applied force and takes place in the direction of the force.
+Newton's Third Law
+For every action there is an equal and opposite reaction.
+Momentum
+Product of a bodies mass and velocity - units are kilogram metre per second (kg m/s).
+Inertia
+Resistance of a body to change its motion.
+Radian
+The angle produced by the length of one radius around the circumference of a circle.
+Centripetal Force
+Inwards force created as an object accelerates in a circle rather than traveling in a straight line - units are Newton (N)
+Centrifugal Force
+Outwards force that opposes centripetal force - units Newton (N)
+Angular Velocity
+The change of angular displacement with respect to time - units are radians per second (rad/s).
+Angular Acceleration
+The change of angular velocity with respect to time - units are acceleration radians per second squared (rad/s^2).
+Amplitude
+The size of displacement.
+Angular Momentum
+Product of a body’s moment of inertia (I) and angular velocity - units are kilogram radian per second (kg.rad/s).
+Simple Harmonic Motion (SHM)
+The oscillatory motion caused by a restoring force acting in the opposite direction to the displacement force. Examples: weight on a spring; guitar string, ruler on a desk; pendulum.
+Free vibration
+After one displacement a system is allowed to vibrate at its natural frequency until it stops.
+Forced Vibration
+A system vibrating due to a periodic force being applied to make it continue to oscillate. Examples: microphone or speaker.
+Resonance
+Where the frequency of a forced vibration is applied at the same rate as its natural frequency causes size of oscillations to increase.
+Cycle
+One complete vibration.
+Periodic Time
+Time taken to complete one cycle - units are seconds (s).
+Frequency
+Number of cycles per second - units are Hertz (Hz).
+Work
+The product of a force and distance - units are Joule (J)
+Power
+The rate of doing work - units are Watts (W).
+Gyroscopic rigidity
+The ability of a gyro to maintain a fixed point in space caused by angular momentum. More momentum equals more rigidity.
+Gyroscopic Precession
+An axis of rotation will react and move at 90 degrees to an applied force on it.
+Simple Machine
+A device that changes the magnitude, direction and/or line of action of a force.
+Conservation of Energy
+Energy cannot be created or destroyed only converted from one form to another. Examples: A battery takes chemical energy and converts it to electrical energy; a light bulb takes electrical energy and converts it to light and heat energy.
+Static Friction
+The force that opposes the relative motion of two sliding surfaces - when not moving.
+Dynamic Friction
+The force that opposes the relative motion of two sliding surfaces – when moving.
+Co-efficient Of Friction
+The relationship between the frictional force and the normal reaction force
+Viscosity
+A fluids resistance to flow.
