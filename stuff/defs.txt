@@ -79,9 +79,9 @@ Turning effect of a force about an axis of rotation - the product of a force and
 Centre of gravity
 The imaginary point from which the weight of a body can be considered to act. If the body is a symmetrical solid then its C of G is at the geometric centre.
 Pressure
-Force per unit area - units are Newton per metre squared (N/m^2) or Pascal (Pa)
+Force per unit area - units are Newton per metre squared (N/m&#0178) or Pascal (Pa)
 Density
-Mass per unit volume - units are kg per metres cubed (kg/m^3).
+Mass per unit volume - units are kg per metres cubed (kg/m&#0179).
 Relative Density
 Density of a substance with relation to pure water - No units.
 Absolute Pressure
@@ -105,7 +105,7 @@ The change of distance with respect to time - units are metre per second (m/s)
 Velocity
 The change of displacement with respect to time - units are metre per second (m/s)
 Acceleration
-The change of velocity with respect to time - units are metre per second squared (m/s^2)
+The change of velocity with respect to time - units are metre per second squared (m/s&#0178)
 Newton's First Law
 A body at rest, or in uniform motion in a straight line, will continue in this state unless acted upon by an external force.
 Newton's Second Law
@@ -125,7 +125,7 @@ Outwards force that opposes centripetal force - units Newton (N)
 Angular Velocity
 The change of angular displacement with respect to time - units are radians per second (rad/s).
 Angular Acceleration
-The change of angular velocity with respect to time - units are acceleration radians per second squared (rad/s^2).
+The change of angular velocity with respect to time - units are acceleration radians per second squared (rad/s&#0178).
 Amplitude
 The size of displacement.
 Angular Momentum
