@@ -1,2 +1,2 @@
 # flipcard
-Just playing about with flip cards as a possible addition to the Science Revision Q's app.
+Project to get me playing with flipcard dev. Used to aid student revision of Science definitions.
