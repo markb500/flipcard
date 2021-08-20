@@ -1,71 +1,71 @@
 Atom
-The smallest amount of any element
+The smallest amount of any element.
 Electron
-Negative charge - Orbit in shells (Max 2-8-18-32)
+Particle with a negative charge - Orbits nucleus in energy shells (Max 2-8-18-32).
 Valence Shell
-Outermost shell of an atom
+Outermost energy shell of an atom.
 Valence Electron
-Electron in valence shell
+Electron in the valence shell.
 Proton
-Positive charge - Part of the nucleus
+Particle with a positive charge - Part of the nucleus.
 Atomic Number
-Number of protons
+Number of protons in an atom.
 Neutrons
-No charge - Part of the nucleus
+Particle with no charge - Part of the nucleus.
 Nucleus
-Centre of an atom - Contains protons and neutrons
+Centre of an atom - Contains protons and neutrons.
 Positive Ion
-Atom with less electrons than protons
+Atom with less electrons than protons.
 Negative Ion
-Atom with more electrons than protons
+Atom with more electrons than protons.
 Isotope
-Has more, or less, neutrons than a standard atom of that element
+Has more, or less, neutrons than a standard atom of that element.
 Molecule
-2 or more atoms bonded together - Can be same or different elements
+2 or more atoms bonded together - Can be same or different elements.
 Compound
-2 or more elements chemically bonded
+2 or more elements chemically bonded.
 Mixture
-2 or more substances mixed together but not chemically bonded
+2 or more substances mixed together but not chemically bonded.
 Covalent Bond
-Sharing of valence electrons – Strongest bond
+Sharing of valence electrons – Strongest of the 3 bonds.
 Ionic Bond
-Metal gives away an electron – Non-metal gains an electron – Electrostatic bond.
+Metal gives away an electron, non-metal gains an electron – Electrostatic bond between the resulting ions.
 Metallic Bond
-Many free electrons - Weakest of the 3 bonds
+Many free electrons moving between the atoms - Weakest of the 3 bonds.
 Features of Metals
-Strength, Workability, Stiffness, Ductility, Good conductors
+Strength, Workability, Stiffness, Ductility, Good conductor.
 Kinetic Theory of Matter
-Above absolute zero, all particles have kinetic energy (KE)
+Above absolute zero, all particles have kinetic energy (KE).
 Kinetic Molecular Motion
-Vibrational in solids - Linear in gases
+Vibrational, angular (rotational) and linear.
 Brownian Motion
-Molecules within a fluid colliding with small particles (eg pollen, smoke) causing random, jerky motion. A good demonstration of the kinetic theory of matter
+Molecules within a fluid colliding with small particles (eg pollen, smoke) causing random, jerky motion. A good demonstration of the kinetic theory of matter.
 Sublimation
-Solid to Gas or Vapour eg Dry Ice
+State change from solid directly to Gas eg Dry Ice.
 Deposition
-Gas or Vapour to Solid eg Haw Frost
+State change from gas directly to Solid eg HoarFrost.
 Latent Heating
-Change of state - no change of temperature
+Change of state - no change of temperature.
 Sensible Heating
-Change of temperature - no change of state
+Change of temperature - no change of state.
 Latent Heat of Fusion
-Heat energy (J) required to melt 1 kg of a substance
+Heat energy required to change state from solid to liquid (J/kg).
 Latent Heat of Vaporisation
-Heat energy (J) required to vaporise 1 kg of a substance
+Heat energy required to change state from liquid to gas (J/kg).
 Heat
-Form of energy (J) - Total KE of all the particles in a body
+Form of energy (J) - Total KE of all the particles in a body.
 Temperature
-Hotness or coldness of a body - Average KE of all the particles in a body Measured in Kelvin
+Hotness or coldness of a body (K) - Average KE of all the particles in a body.
 Scalar
 Quantity with magnitude only.
 Vector
-Quantity with magnitude, direction and point of application.
+Quantity with magnitude & direction.
 Mass
-Amount of matter in a body – units are kg.
+Amount of matter in a body (kg).
 Weight
-Force created when gravity acts on a mass.
+Force created when gravity acts on a mass (N).
 Force
-Push or a pull that changes a bodies state of rest or uniform motion in a straight line. Vector quantity - units are Newtons (N).
+Push or a pull that changes an object's state of rest or uniform motion in a straight line. Vector quantity (N).
 Resultant
 Value of one force that has the same effect as several forces.
 Equilibrium
@@ -73,23 +73,23 @@ A system where the vector sum of the forces is zero and the sum of the moments (
 Equilibrant
 A force equal in magnitude but opposite in direction to the Resultant.
 Moment
-The turning effect of a force about a point - the product of the force and perpendicular distance from the point - units are Newton metre (Nm).
+The turning effect of a force about a point - the product of the force and perpendicular distance from the point (Nm).
 Torque
-Turning effect of a force about an axis of rotation - the product of a force and perpendicular distance from the axis of rotation - units are Nm.
-Centre of gravity
-The imaginary point from which the weight of a body can be considered to act. If the body is a symmetrical solid then its C of G is at the geometric centre.
+Turning effect of a force about an axis of rotation - the product of a force and perpendicular distance from the axis of rotation (Nm).
+Centre of Gravity
+The imaginary point from which the weight of a body can be considered to act.
 Pressure
-Force per unit area - units are Newton per metre squared (N/m&#0178) or Pascal (Pa)
+Force per unit area (N/m&#0178) or (Pa).
 Density
-Mass per unit volume - units are kg per metres cubed (kg/m&#0179).
+Mass per unit volume (kg/m&#0179).
 Relative Density
-Density of a substance with relation to pure water - No units.
+Density of a substance compared to that of pure water - No units.
 Absolute Pressure
 Pressure measured relative to a vacuum.
 Gauge Pressure
 Pressure measured relative to atmospheric pressure.
 Differential Pressure
-A difference of 2 pressures. Normally internal – external.
+A difference of 2 pressures.
 Ambient Pressure
 Pressure surrounding a body.
 Barometer
@@ -97,15 +97,15 @@ Device to measure atmospheric pressure.
 Manometer
 Device to measure low pressure gas in pipelines.
 Distance
-Change of position of a body independent of direction.
+Change of position of a body, independent of direction (m).
 Displacement
-Change of position of a body in a given direction – units: metre.
+Change of position of a body in a given direction (m).
 Speed
-The change of distance with respect to time - units are metre per second (m/s)
+The change of distance with respect to time (m/s).
 Velocity
-The change of displacement with respect to time - units are metre per second (m/s)
+The change of displacement with respect to time (m/s).
 Acceleration
-The change of velocity with respect to time - units are metre per second squared (m/s&#0178)
+The change of velocity with respect to time (m/s&#0178).
 Newton's First Law
 A body at rest, or in uniform motion in a straight line, will continue in this state unless acted upon by an external force.
 Newton's Second Law
@@ -113,42 +113,42 @@ The rate of change of momentum of an object is proportional to the size of the a
 Newton's Third Law
 For every action there is an equal and opposite reaction.
 Momentum
-Product of a bodies mass and velocity - units are kilogram metre per second (kg m/s).
+Product of a body's mass and velocity (kg m/s).
 Inertia
 Resistance of a body to change its motion.
 Radian
 The angle produced by the length of one radius around the circumference of a circle.
 Centripetal Force
-Inwards force created as an object accelerates in a circle rather than traveling in a straight line - units are Newton (N)
+Inwards force created as an object accelerates in a circle rather than traveling in a straight line (N).
 Centrifugal Force
-Outwards force that opposes centripetal force - units Newton (N)
+Outwards force that opposes centripetal force (N).
 Angular Velocity
-The change of angular displacement with respect to time - units are radians per second (rad/s).
+The change of angular displacement with respect to time (rad/s).
 Angular Acceleration
-The change of angular velocity with respect to time - units are acceleration radians per second squared (rad/s&#0178).
+The change of angular velocity with respect to time (rad/s&#0178).
 Amplitude
 The size of displacement.
 Angular Momentum
-Product of a body’s moment of inertia (I) and angular velocity - units are kilogram radian per second (kg.rad/s).
+Product of a body’s moment of inertia (I) and angular velocity (kg rad/s).
 Simple Harmonic Motion (SHM)
 The oscillatory motion caused by a restoring force acting in the opposite direction to the displacement force. Examples: weight on a spring; guitar string, ruler on a desk; pendulum.
-Free vibration
+Free Vibration
 After one displacement a system is allowed to vibrate at its natural frequency until it stops.
 Forced Vibration
 A system vibrating due to a periodic force being applied to make it continue to oscillate. Examples: microphone or speaker.
 Resonance
-Where the frequency of a forced vibration is applied at the same rate as its natural frequency causes size of oscillations to increase.
+Where the frequency of a forced vibration is applied at the natural frequency, causing the amplitude of the oscillations to increase.
 Cycle
 One complete vibration.
 Periodic Time
-Time taken to complete one cycle - units are seconds (s).
+Time taken to complete one cycle (s).
 Frequency
-Number of cycles per second - units are Hertz (Hz).
+Number of cycles per second (Hz).
 Work
-The product of a force and distance - units are Joule (J)
+The product of a force and distance. Work is done when a force causes something to move through a distance (J).
 Power
-The rate of doing work - units are Watts (W).
-Gyroscopic rigidity
+The rate of doing work (W).
+Gyroscopic Rigidity
 The ability of a gyro to maintain a fixed point in space caused by angular momentum. More momentum equals more rigidity.
 Gyroscopic Precession
 An axis of rotation will react and move at 90 degrees to an applied force on it.
@@ -163,4 +163,4 @@ The force that opposes the relative motion of two sliding surfaces – when movi
 Co-efficient Of Friction
 The relationship between the frictional force and the normal reaction force
 Viscosity
-A fluids resistance to flow.
+A fluid's resistance to flow.
