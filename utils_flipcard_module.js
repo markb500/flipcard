@@ -54,5 +54,5 @@ function gendefs() {
             document.getElementById("c5b").innerHTML = "<b>" + defsarr[seldefs[8]] + "</b>" + defsarr[seldefs[9]];
             document.getElementById("c6f").innerHTML = "<b>" + defsarr[seldefs[10]] + "</b>";
             document.getElementById("c6b").innerHTML = "<b>" + defsarr[seldefs[10]] + "</b>" + defsarr[seldefs[11]]
-            }, 50);
+            }, 100);
     }
