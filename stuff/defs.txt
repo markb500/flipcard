@@ -43,7 +43,7 @@ Molecules within a fluid colliding with small particles (eg pollen, smoke) causi
 Sublimation
 State change from solid directly to Gas eg Dry Ice.
 Deposition
-State change from gas directly to Solid eg HoarFrost.
+State change from gas directly to solid eg Hoar frost.
 Latent Heating
 Change of state - no change of temperature.
 Sensible Heating
@@ -129,7 +129,7 @@ The change of angular velocity with respect to time (rad/s&#0178).
 Amplitude
 The size of displacement.
 Angular Momentum
-Product of a body’s moment of inertia (I) and angular velocity (kg rad/s).
+Product of a body’s moment of inertia and angular velocity.
 Simple Harmonic Motion (SHM)
 The oscillatory motion caused by a restoring force acting in the opposite direction to the displacement force. Examples: weight on a spring; guitar string, ruler on a desk; pendulum.
 Free Vibration
@@ -149,7 +149,7 @@ The product of a force and distance. Work is done when a force causes something 
 Power
 The rate of doing work (W).
 Gyroscopic Rigidity
-The ability of a gyro to maintain a fixed point in space caused by angular momentum. More momentum equals more rigidity.
+The ability of a gyro to maintain a fixed attitude in space, caused by angular momentum. More momentum equals more rigidity.
 Gyroscopic Precession
 An axis of rotation will react and move at 90 degrees to an applied force on it.
 Simple Machine
