@@ -1,5 +1,5 @@
 Atom
-The smallest amount of any element.
+The smallest amount of any element.<img src="/stuff/3Rtiny.png">
 Electron
 Particle with a negative charge - Orbits nucleus in energy shells (Max 2-8-18-32).
 Valence Shell
