@@ -110,7 +110,7 @@
             <button
             id="next" 
             class="btn btn-outline-primary" 
-            onclick="gendefs()">Next
+            onclick="gendefs(defsarr.length)">Next
             </button>
         </div>
     </div>
@@ -171,6 +171,16 @@
         <p>Designed and built by Mark Butler, APO, RAF Cosford</p>
     </footer>
     <script src="utils_flipcard_module.js"></script>
-    <script>gendefs();</script>
+    <script>
+    function chkarrlen () {
+        //Waits until txt file has been read into defsarr 'cos defsarr.length used in gendefs
+        if (defsarr.length > 0) {
+            document.getElementById("next").click()
+        } else {
+            setTimeout(chkarrlen, 300); // try again in 300 milliseconds
+        }
+    }
+    chkarrlen();
+    </script>
 </body>
 </html>

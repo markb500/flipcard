@@ -21,7 +21,7 @@ function rndgen(lower, upper, dp, step, fix) {
     }
 }
 
-function gendefs() {
+function gendefs(arrlen) {
     //Turns all tiles back to front-up and
     //randomly selects which definitions are displayed in each of the 6 flipcards
     for(var i = 1; i < 7; i++) {
@@ -32,11 +32,12 @@ function gendefs() {
             document.getElementById("c" + i).click(); 
         }
     }
+    
     prevseldefs = seldefs;
     seldefs = [];
         for(var i = 0; i < 11; i += 2) {
             do {
-                var j = rndgen(0, 164, 0, 2, -1)
+                var j = rndgen(0, arrlen, 0, 2, -1)
             } while(seldefs.includes(j) || prevseldefs.includes(j))
             seldefs[i] = j;
             seldefs[i + 1] = j + 1;
