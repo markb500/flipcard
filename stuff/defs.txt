@@ -36,7 +36,7 @@ Features of Metals
 Strength, Workability, Stiffness, Ductility, Good conductor.
 Kinetic Theory of Matter
 Above absolute zero, all particles have kinetic energy (KE).
-Kinetic Molecular Motion
+Forms of Kinetic Molecular Motion
 Vibrational, angular (rotational) and linear.
 Brownian Motion
 Molecules within a fluid colliding with small particles (eg pollen, smoke) causing random, jerky motion. A good demonstration of the kinetic theory of matter.
@@ -161,6 +161,6 @@ The force that opposes the relative motion of two sliding surfaces - when not mo
 Dynamic Friction
 The force that opposes the relative motion of two sliding surfaces – when moving.
 Co-efficient Of Friction
-The relationship between the frictional force and the normal reaction force
+The relationship between the frictional force and the normal reaction force. Relates to the type and condition of the contact surfaces.
 Viscosity
 A fluid's resistance to flow.
