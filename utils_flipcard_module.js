@@ -24,6 +24,7 @@ function rndgen(lower, upper, dp, step, fix) {
 function gendefs(arrlen) {
     //Turns all tiles back to front-up and
     //randomly selects which definitions are displayed in each of the 6 flipcards
+    alert(arrlen);
     for(var i = 1; i < 7; i++) {
         var el = document.getElementById("c" + i);
         var st = window.getComputedStyle(el, null);
